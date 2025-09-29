@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args){
+      Scanner s = new Scanner(System.in);
+      
+      System.out.println("Doxod: ");
+      int doxod = s.nextInt();
+      
+      System.out.println("Rasxodi: ");
+      int ezhRasxod = s.nextInt();
+      
+      System.out.println("Summa credita: ");
+      int summaCredita = s.nextInt();
+      
+      System.out.println("Srok credita: ");
+      int srok = s.nextInt();
+      
+      if (doxod>summaCredita){
+          System.out.println("Credit odobren");
+      }
+      
+      else{
+          System.out.println("V credite otkazano");
+      }
+  }
+}
